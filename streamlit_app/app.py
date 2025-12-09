@@ -69,7 +69,7 @@ selected_title = st.sidebar.selectbox("Title, Employee Name", ["All"] + list(tit
 min_date = df['orderdate'].min().date()
 max_date = df['orderdate'].max().date()
 # Default to match PowerBI screenshot (1996-11-10 to 1997-12-27)
-default_start = date(1996, 11, 10)
+default_start = date(1996, 10, 11)
 default_end = date(1997, 12, 27)
 
 date_range = st.sidebar.date_input(
